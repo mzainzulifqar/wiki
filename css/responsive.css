@@ -208,6 +208,155 @@ Medium Screen - Others
     margin-left: 0;
     margin-right: 0;
   }
+
+
+  
+  
+  /* [[[[[[[[[[[[[[ */
+
+
+
+
+
+.tt-hover img {
+  width: 429px;
+}
+.tt-hover {
+  position: absolute;
+  top: -73px;
+  left: 40px;
+  transition: .2s;
+  visibility: hidden;
+}
+
+  .tt-hover2 img {
+    width: 401px;
+  }
+  .tt-hover2 {
+    position: absolute;
+    top: -94px;
+    right: -9%;
+    transition: .2s;
+    visibility: hidden;
+  }
+
+
+  .h-left-hero-img::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 111px;
+    left: 172px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-rt-img::before {
+    content: "";
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 73px;
+    left: 44%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-hover-a::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -56%;
+    left: 22%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+
+  /* === */
+  .news-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -4px;
+    left: 10%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+  .more-news button::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+  .footer-top-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 22px;
+    left: 62px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+ 
+  .tt-hover3 {
+    position: absolute;
+    top: -98px;
+    left: 68px;
+    transition: .2s;
+    visibility: hidden;
+  }
+ 
+
+  
 }
 
 /*
@@ -598,6 +747,229 @@ Small Screen - Tablate
   .bluresss {
     display: none;
   }
+
+  
+  /* [[[[[[[[[[[[[[ */
+
+
+
+
+
+.tt-hover img {
+  width: 429px;
+}
+.tt-hover {
+  position: absolute;
+  top: -73px;
+  left: 40px;
+  transition: .2s;
+  visibility: hidden;
+}
+
+  .tt-hover2 img {
+    width: 401px;
+  }
+  .tt-hover2 {
+    position: absolute;
+    top: -85px;
+    right: -24%;
+    transition: .2s;
+    visibility: hidden;
+  }
+
+
+  .h-left-hero-img::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 111px;
+    left: 121px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-rt-img::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 73px;
+    left: 34%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-hover-a::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -56%;
+    left: 22%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+
+
+
+  /* === */
+
+  .news-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -4px;
+    left: 10%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+  .more-news button::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+  .footer-top-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 22px;
+    left: 62px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .tt-hover3 {
+    position: absolute;
+    top: -113px;
+    left: -30px;
+    transition: .2s;
+    visibility: hidden;
+  }
+
+
+
+
+/* ===================================================== */
+
+
+.DataPrivacy h1 {
+    font-size: 28.8px;
+}
+.DataPrivacy .box {
+    padding-top: 68px;
+}
+.DataPrivacy .box h2 {
+    font-size: 19.2px;
+    margin-bottom: 12px;
+}
+.DataPrivacy .box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.DataPrivacy .box ul {
+    padding-left: 30px;
+    margin-bottom: 35px;
+}
+.DataPrivacy .box ul li {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.DataPrivacy {
+    margin-top: -15px;
+    padding-bottom: 160px;
+}
+
+.DataPrivacy .container {
+    max-width: 434px;
+}
+
+
+.hero-area-aboutus img{
+  display: none;
+}
+
+.hero-area3 .Bridging .midle-img{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*
@@ -948,6 +1320,297 @@ Small Screen - Mobile
     top: 101%;
     left: 19.7%;
   }
+
+
+  /* [[[[[[[[[[[[[[ */
+
+
+
+
+
+.tt-hover img {
+  width: 429px;
+}
+.tt-hover {
+  position: absolute;
+  top: -73px;
+  left: 40px;
+  transition: .2s;
+  visibility: hidden;
+}
+
+  .tt-hover2 img {
+    width: 401px;
+  }
+  .tt-hover2 {
+    position: absolute;
+    top: -90px;
+    right: 2%;
+    transition: .2s;
+    visibility: hidden;
+  }
+
+
+  .h-left-hero-img::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 111px;
+    left: 185px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-rt-img::before {
+    content: "";
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 119px;
+    left: 17%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-hover-a::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -56%;
+    left: 22%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+
+
+  /* === */
+
+  .news-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -4px;
+    left: 10%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+  .more-news button::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+  .footer-top-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 22px;
+    left: 32px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+
+  
+  .tt-hover3 img {
+    width: 389px !important;
+  }
+  .tt-hover3 {
+    position: absolute;
+    top: -89px;
+    left: 70px;
+    transition: .2s;
+    visibility: hidden;
+  }
+
+
+
+/* ===================================================== */
+
+
+.DataPrivacy h1 {
+    font-size: 28.8px;
+}
+.DataPrivacy .box {
+    padding-top: 68px;
+}
+.DataPrivacy .box h2 {
+    font-size: 19.2px;
+    margin-bottom: 12px;
+}
+.DataPrivacy .box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.DataPrivacy .box ul {
+    padding-left: 30px;
+    margin-bottom: 35px;
+}
+.DataPrivacy .box ul li {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.DataPrivacy {
+    margin-top: -15px;
+    padding-bottom: 160px;
+}
+
+.DataPrivacy .container {
+    max-width: 434px;
+}
+.hero-privacy .hero-liness img{
+  height: auto;
+}
+
+
+.articale01 .box-top h1 {
+    font-size: 28.58px;
+    line-height: 120%;
+    margin-bottom: 4px;
+}
+
+.articale01 .box-top p {
+    font-size: 14px;
+    line-height: 150%;
+}
+.articale01 .box-top {
+    margin-bottom: 52px;
+}
+
+.articale01 .box-item01 {
+    padding: 24px 0;
+    margin-bottom: 52px;
+}
+
+.articale01 p {
+    font-size: 14px;
+    line-height: 150%;
+}
+.articale01 .box-item02 {
+    margin-bottom: 52px;
+}
+
+.articale01 .box-img {
+    margin: 52px 0;
+}
+.articale01 .box-item03 {
+    padding: 34px 25px;
+    margin-bottom: 52px;
+}
+
+.articale01 .box-item03 .media .media-body p {
+    font-size: 19.2px;
+}
+.articale01 .box-item03 .media img {
+    margin-right: 15px;
+}
+.articale01 .box-item04 h4 {
+    font-size: 19.2px;
+    margin-bottom: 12px;
+}
+.articale01 .box-item05 p {
+    font-size: 14px;
+}
+
+.Downloads.bg-white {
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+
+.Downloads .box {
+    padding: 30px 30px;
+}
+.Downloads .box h4 {
+    font-size: 19.2px;
+}
+.Downloads .box ul li a {
+    font-size: 14px;
+    padding: 18px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*
@@ -1363,4 +2026,492 @@ Xtra Small Screen - Small Mobile
     left: 15px;
     z-index: 99999;
   }
+/* [[[[[[[[[[[[[[ */
+
+
+
+
+
+.tt-hover img {
+  width: 429px;
+}
+.tt-hover {
+  position: absolute;
+  top: -73px;
+  left: -2px;
+  transition: .2s;
+  visibility: hidden;
+}
+
+  .tt-hover2 img {
+    width: 401px;
+  }
+  .tt-hover2 {
+    position: absolute;
+    top: -90px;
+    right: -18%;
+    transition: .2s;
+    visibility: hidden;
+  }
+
+
+  .h-left-hero-img::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 111px;
+    left: 101px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-rt-img::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 119px;
+    left: 17%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+  .hero-hover-a::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -56%;
+    left: 22%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+
+  /* === */
+
+  .news-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -4px;
+    left: 10%;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+  .more-news button::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+    transition: .2s;
+  }
+
+
+  .footer-top-item::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-image: url(../img/hover1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 22px;
+    left: 62px;
+    transition: .2s;
+    visibility: hidden;
+    z-index: 1111;
+  }
+
+
+  .tt-hover3 img {
+    width: 389px !important;
+  }
+  .tt-hover3 {
+    position: absolute;
+    top: -89px;
+    left: -14px;
+    transition: .2s;
+    visibility: hidden;
+  }
+
+
+/* ===================================================== */
+
+
+.DataPrivacy h1 {
+    font-size: 28.8px;
+}
+.DataPrivacy .box {
+    padding-top: 50px;
+}
+.DataPrivacy .box h2 {
+    font-size: 19.2px;
+    margin-bottom: 12px;
+}
+.DataPrivacy .box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.DataPrivacy .box ul {
+    padding-left: 30px;
+    margin-bottom: 35px;
+}
+.DataPrivacy .box ul li {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.DataPrivacy {
+    margin-top: -70px;
+    padding-bottom: 160px;
+}
+.DataPrivacy .container {
+    max-width: 434px;
+}
+.hero-privacy .hero-liness img{
+  height: auto;
+}
+.dropdown-menu {
+    min-width: 6rem !important;
+}
+
+.menu-language-btn .dropdown-item {
+    font-size: 14px !important;
+}
+
+
+
+.articale01 .box-top h1 {
+    font-size: 28.58px;
+    line-height: 120%;
+    margin-bottom: 4px;
+}
+
+.articale01 .box-top p {
+    font-size: 14px;
+    line-height: 150%;
+}
+.articale01 .box-top {
+    margin-bottom: 52px;
+}
+
+.articale01 .box-item01 {
+    padding: 24px 0;
+    margin-bottom: 52px;
+}
+
+.articale01 p {
+    font-size: 14px;
+    line-height: 150%;
+}
+.articale01 .box-item02 {
+    margin-bottom: 52px;
+}
+
+.articale01 .box-img {
+    margin: 52px 0;
+}
+.articale01 .box-item03 {
+    padding: 34px 25px;
+    margin-bottom: 52px;
+}
+
+.articale01 .box-item03 .media .media-body p {
+    font-size: 19.2px;
+}
+.articale01 .box-item03 .media img {
+    margin-right: 15px;
+}
+.articale01 .box-item04 h4 {
+    font-size: 19.2px;
+    margin-bottom: 12px;
+}
+.articale01 .box-item05 p {
+    font-size: 14px;
+}
+
+.Downloads.bg-white {
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+
+.Downloads .box {
+    padding: 30px 30px;
+}
+.Downloads .box h4 {
+    font-size: 19.2px;
+}
+.Downloads .box ul li a {
+    font-size: 14px;
+    padding: 18px 0;
+}
+
+
+.hero-area-aboutus img{
+  display: none;
+}
+.hero-area-aboutus {
+    padding-bottom: 120px;
+}
+.hero-area-aboutus p {
+    font-size: 22.39px;
+    max-width: 300px;
+}
+.Bridging .slider-wrapp .hero-slider-item h4 {
+    margin-bottom: 30px;
+    font-size: 19.2px;
+    max-width: 250px;
+}
+.hero-area.hero-area3 {
+    background-position: 100% 14%;
+}
+.hero-area.hero-area3 .hero-liness img {
+    height: auto;
+}
+.hero-area3 .Bridging .midle-img img{
+  display: none;
+}
+.hero-area3 .Bridging .item-right {
+    position: relative;
+    margin-bottom: 0;
+    padding-left: 62px;
+}
+.Bridging .item-right .item-p-left {
+    padding-left: 0;
+}
+.hero-area3 .Bridging .item-right .item-p-left h4 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.hero-area3 .Bridging .item-right .item-p-left p {
+    color: #fff;
+    font-size: 14px;
+}
+.Bridging .slider-wrapp .arrow {
+    max-width: 80px;
+    margin-top: -41px;
+    margin-left: 65px;
+}
+.Bridging .slider-wrapp .slick-dots {
+    margin-left: 60px;
+}
+.Team h2.teamH2 {
+    margin-bottom: 26px;
+    font-size: 28px;
+}
+.Team .box .accordion .accordion-item .accordion-header button {
+    padding: 16px 0 !important;
+    font-size: 14.4px;
+}
+.Team .box .accordion .accordion-body .team-body .item-team-left img {
+    max-width: 100%;
+    margin-bottom: 18px;
+}
+.Team .box .accordion .accordion-body .team-body .item-team-right p {
+    font-size: 14px;
+}
+.WhatCharacterizes .what-top h2 {
+    font-size: 19.2px;
+    margin-bottom: 26px;
+}
+.WhatCharacterizes .what-top img{
+  display: none;
+}
+.WhatCharacterizes .box, .WhatCharacterizes .what-top-wrapp{
+  display: block !important;
+}
+.WhatCharacterizes .box .box-item {
+    margin-bottom: 25px;
+}
+
+.WhatCharacterizes .box .box-item p {
+    font-size: 14px;
+}
+.WhatCharacterizes {
+    padding: 95px 0 80px 0;
+}
+.Partner {
+    padding-bottom: 70px;
+    padding-top: 105px;
+}
+.Partner .box-img .d-flex {
+    display: block !important;
+}
+.Partner .box-img {
+    border: 4px solid #26B0B0;
+    padding: 40px 30px;
+}
+.Partner .box h2 {
+    margin-bottom: 20px;
+    font-size: 19.2px;
+}
+.Downloads.Downloads2 {
+    padding-top: 0;
+    padding-bottom: 80px;
+    background-color: #000;
+}
+.WouldYou .box h4 {
+    font-size: 22.39px;
+}
+
+.WouldYou .box a {
+    line-height: 26px;
+    font-size: 19.225px;
+    max-width: 215px;
+    display: inline-block;
+}
+.WouldYou {
+    padding-top: 190px;
+    padding-bottom: 80px;
+}
+.hero-area2 .hero-img {
+    padding-top: 0;
+    margin-bottom: 0px;
+}
+
+.hero-left img {
+    display: block;
+    margin: auto;
+}
+.hero-right {
+  position: relative;
+}
+.hero-right .text-h {
+    position: absolute;
+    left: -40px;
+    top: 38%;
+    transform: rotate(90deg) translateY(-50%);
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-area2 .hero-liness img {
+    width: 200%;
+    z-index: 5;
+    height: 130px;
+}
+.hero-area2.hero-area {
+    padding: 100px 0 120px;
+    background-position: 50% 15%;
+    background-size: 130%;
+}
+.hero-area2.hero-area .hero-img img {
+    max-width: 300px;
+}
+.hero-area2 .hero-right {
+    margin-top: -110px;
+}.slider-wrapp .hero-slider-item h4 {
+    font-size: 19.2px;
+}
+.slider-wrapp .hero-slider-item p {
+    font-size: 14px;
+}
+.slider-wrapp .arrow div img {
+    max-width: 18px;
+}
+.slider-wrapp .slick-dots {
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.slider-wrapp .arrow {
+    margin-top: -30px;
+    margin-left: 65px;
+}
+.slider-wrapp .hero-slider-item {
+    padding-left: 65px;
+    text-align: left;
+}
+
+.Bridging .slider-wrapp .hero-slider-item{
+  padding-left: 0;
+}
+.Bridging .midle-img {
+  display: none;
+}
+.Bridging .item-right .item-p-left h4,.Bridging .item-right .item-p-left p {
+    font-size: 14.4px;
+}
+.Bridging .item-right {
+    padding-left: 65px;
+}
+.KeyFeatures::before {
+  display: none;
+}
+.KeyFeatures .slick-list.draggable {
+    padding-right: 0;
+}
+.KeyFeatures .KeyFeatures_slider .KeyFeatures-sitem {
+    margin-left: 0px; 
+    margin-right: 0px; 
+}
+.KeyFeatures .KeyFeatures_slider {
+     margin-left: 0px; 
+     margin-right: 0px; 
+}
+.KeyFeatures .slick-dots {
+    margin-top: 50px;
+}
+.KeyFeatures h2 {
+    font-size: 19.2px;
+}
+.KeyFeatures {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.Downloads.Downloads3{
+  padding: 80px 0;
+}
+
+
+
+
+
+
 }
