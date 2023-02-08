@@ -296,15 +296,22 @@ video {
     cursor: pointer;
 }
 .popup-section {
-    padding: 20px 5%;
     text-align: left;
     display: flex;
     height: 100%;
     align-items: center;
 }
 .popup-section-1 {
-    margin-left: 10%;
-    width: 40%;
+    margin-left: 5%;
+    width: 45%;
+}
+.popup-section-1-inner {
+    max-height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.popup-section-1-inner, .popup-section-2-inner {
+    padding: 20px 10%;
 }
 .popup-section-2 {
     width: 50%;
@@ -335,6 +342,7 @@ video {
     text-align: center;
     border-radius: 5px 5px 0 0;
     cursor: pointer;
+    font-size: 1vw;
 }
 .active {
     background-color: #FF7C0F !important;
@@ -342,10 +350,12 @@ video {
 .popup-tab-section {
     margin: 25px 10px;
     color:  #8a8ba3;
+    max-height: 80%;
+    overflow-y: auto;
 }
 .popup-tab-buttons {
     position: absolute;
-    width: 100%;
+    width: 85%;
     bottom: 0;
 }
 .next, .prev {
