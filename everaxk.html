@@ -13,10 +13,11 @@
     <title>Welcome</title>
     <!-- Fav Icon -->
     <link rel="icon" href="img/fav.png" />
+    <!-- fonts  -->
+        <link rel="stylesheet" href="fonts/stylesheet.css">
     <!-- Include Bootstrap -->
     <link rel="stylesheet" href="css/owl.carousel.css" />
-    <!-- Include multipurpose_tabcontent -->
-    <link rel="stylesheet" href="css/tabs.css" />
+    <link rel="stylesheet" href="css/slick.css" />
     <!-- Include Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Main StyleSheet -->
@@ -33,7 +34,7 @@
 
     <!-- ==== nev area start===== -->
     <header>
-        <div class="container ">
+        <div class="container-fluid ">
             <nav>
                 <div class="menu-logo">
                     <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
@@ -56,7 +57,7 @@
     <!-- ==== nev area start===== -->
 
     <!-- hero-area-start -->
-    <section class="hero-area">
+    <section class="hero-area hero-area0101">
         <span class="hero-liness"><img src="img/hero-line-line.png" alt=""></span>
         <div class="container">
             <div class="hero-slider-logo text-center">
@@ -164,92 +165,182 @@
     </section>
     <!-- hero-area-end -->
 
-    <!-- Benefits for users and owners area start -->
-    <section class="benefits-tab-area overflow-hidden">
-        <div class="container">
-            <div class="benefits-title">
-                <h2>Benefits for users and owners</h2>
-            </div>
-        </div>
-        <div class="tab_wrapper first_tab">
-            <ul class="tab_list">
+ <!-- arrow down start -->
+            <div class="arrow0-down d-lg-block d-none arrow01-down0">
                 <div class="container">
-                    <li class="active">For patients</li>
-                    <li>For doctors</li>
-                    <li>For hospitals</li>
-                    <li>For health insurance funds</li>
-                </div>
-            </ul>
-            <div class="content_wrapper">
-                <div class="tab_content active">
-                    <div class="row g-5">
-                        <div class="col-md-6">
-                            <div class="tab-items">
-                                <span class="tab-ln-1"><img src="img/M.png" alt=""></span>
-                                <span class="tab-ln-2"><img src="img/lL.png" alt=""></span>
-                                <img src="img/tab-icon1.png" class="img-fluid" alt="">
-                                <p>Patients benefit from more informative, productive consultations and visits.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="tab-items">
-                                <span class="tab-ln-3"><img src="img/L.png" alt=""></span>
-                                <img src="img/tab-icon-2.png" class="img-fluid" alt="">
-                                <p>They are less "externally determined", but can have a say in decisions (if they
-                                    wish).</p>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="tab-items tab-item-center">
-                                <img src="img/tab-icon-3.png" class="img-fluid" alt="">
-                                <p>Better understanding and sharing of decisions made together—which should increase
-                                    the effectiveness of the medical treatment.</p>
-                            </div>
-                        </div>
+                    <div class="box">
+                        <img src="img/arrow-down.png" alt="img" class="img-fluid">
+                        <h2>Benefits for users and owners</h2>
                     </div>
-                </div>
-                <div class="tab_content">
-                    <h3>Tab content 2</h3>
-                    <p> The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-                        1.10.32.</p>
-                </div>
-                <div class="tab_content">
-                    <div class="row g-5">
-                        <div class="col-md-6">
-                            <div class="tab-items">
-                                <span class="tab-ln-1"><img src="img/M.png" alt=""></span>
-                                <span class="tab-ln-2"><img src="img/lL.png" alt=""></span>
-                                <img src="img/tab-icon1.png" class="img-fluid" alt="">
-                                <p>Patients benefit from more informative, productive consultations and visits.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="tab-items">
-                                <span class="tab-ln-3"><img src="img/L.png" alt=""></span>
-                                <img src="img/tab-icon-2.png" class="img-fluid" alt="">
-                                <p>They are less "externally determined", but can have a say in decisions (if they
-                                    wish).</p>
-                                <span class="tab-ln-3"><img src="img/L.png" alt=""></span>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="tab-items tab-item-center">
-                                <img src="img/tab-icon-3.png" class="img-fluid" alt="">
-                                <p>Better understanding and sharing of decisions made together—which should increase
-                                    the effectiveness of the medical treatment.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab_content">
-                    <h3>Tab content 4</h3>
-                    <h1>Mahmudul hasan babu</h1>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Benefits for users and owners area end -->
+            <!-- arrow down end -->
+            <!-- Benefits start -->
+            <div class="Benefits d-lg-block d-none">
+                <div class="Benefits-inner">
+                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><span>For patients</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><span>For doctors</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><span>For hospitals</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="funds-tab" data-bs-toggle="tab" data-bs-target="#funds-tab-pane" type="button" role="tab" aria-controls="funds-tab-pane" aria-selected="false"><span>For health insurance funds</span></button>
+                        </li>
 
+                    </ul>
+                    <div class="container">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                <!-- inner item start -->
+                                <div class="benefits-item">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="item01">
+                                            <img src="img/tab-icon1.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                        <div class="item01-img align-self-center">
+                                            <img src="img/M.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item01  align-self-center">
+                                            <img src="img/tab-icon-2.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex justify-content-between item002">
+                                        <div class="item1">
+                                            <img src="img/lL.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item2">
+                                            <img src="img/L.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center  align-self-center item003">
+                                        <div class="item01">
+                                            <img src="img/tab-icon-3.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- inner item end -->
+                            </div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+                                <!-- inner item start -->
+                                <div class="benefits-item">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="item01">
+                                            <img src="img/tab-icon1.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                        <div class="item01-img align-self-center">
+                                            <img src="img/M.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item01  align-self-center">
+                                            <img src="img/tab-icon-2.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex justify-content-between item002">
+                                        <div class="item1">
+                                            <img src="img/lL.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item2">
+                                            <img src="img/L.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center  align-self-center item003">
+                                        <div class="item01">
+                                            <img src="img/tab-icon-3.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- inner item end -->
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                                <!-- inner item start -->
+                                <div class="benefits-item">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="item01">
+                                            <img src="img/tab-icon1.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                        <div class="item01-img align-self-center">
+                                            <img src="img/M.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item01  align-self-center">
+                                            <img src="img/tab-icon-2.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex justify-content-between item002">
+                                        <div class="item1">
+                                            <img src="img/lL.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item2">
+                                            <img src="img/L.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center  align-self-center item003">
+                                        <div class="item01">
+                                            <img src="img/tab-icon-3.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- inner item end -->
+                            </div>
+                            <div class="tab-pane fade" id="funds-tab-pane" role="tabpanel" aria-labelledby="funds-tab" tabindex="0">
+                                <!-- inner item start -->
+                                <div class="benefits-item">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="item01">
+                                            <img src="img/tab-icon1.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                        <div class="item01-img align-self-center">
+                                            <img src="img/M.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item01  align-self-center">
+                                            <img src="img/tab-icon-2.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex justify-content-between item002">
+                                        <div class="item1">
+                                            <img src="img/lL.png" alt="img" class="img-fluid">
+                                        </div>
+                                        <div class="item2">
+                                            <img src="img/L.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center  align-self-center item003">
+                                        <div class="item01">
+                                            <img src="img/tab-icon-3.png" alt="img" class="img-fluid">
+                                            <p>Patients benefit from more informative, productive consultations and visits.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- inner item end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Benefits end -->
     <!-- Benefits for users and owners area start -->
     <div class="benifit-mobile">
         <div class="container">
@@ -374,88 +465,120 @@
     </div>
     <!-- Benefits for users and owners area end -->
 
-    <!-- EverAsks Mission area-start -->
-    <section class="everasks-mission-area">
-        <div class="container">
-            <div class="everasks-mission-container">
-                <div class="myslider2 owl-carousel owl-theme">
-                    <div class="item" data-dot="<button>1</button>">
-                        <div class="everasks-mission-wrapper">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="ev-mission-left ">
-                                        <h2>EverAsks Mission:<br><span>Bridging the gap between <br> patients and
-                                                doctors</span></h2>
-                                        <img src="img/Left.png" class="img-fluid" alt="">
-                                        <span class="ev-mission-l-icons"><img src="img/ev-mission.png" class="img-fluid"
-                                                alt=""></span>
+<!-- Bridging start -->
+            <div class="Bridging Bridging1001">
+                <div class="container">
+                    
+                    <!-- slider-wrapp start -->
+                    <div class="slider-wrapp">
+                        <div class="slider-hero slider-hero2">
+
+                            <!-- slider010-item start -->
+                            <div class="slider010-item">
+                                <div class="midle-img">
+                        <img src="img/arrow-down-black.png" alt="img" class="img-fluid">
+                    </div>
+
+                                <!-- row start -->
+                                <div class="row">
+                                    <!-- single item start -->
+                                    <div class="col-lg-6">
+                                        <div class="hero-slider-item">
+                                            <h4>Added Insight: <br> <span>Bridging the gap between patients and doctors</span></h4>
+                                            <img src="img/human.png" alt="img" class="img-fluid">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="ev-mission-right ">
-                                        <h2>1</h2>
-                                        <h4>Patients are not medical <br> professionals</h4>
-                                        <p>While it is a daily routine for doctors to <br> talk to patients, such
-                                            conversations are <br> often a stressful and exceptional <br> situation for
-                                            patients.</p>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6 align-self-end">
+                                        <div class="item-right">
+                                            <span class="number">1</span>
+                                            <div class="item-p-left">
+                                                <h4>Patients are not medical professionals</h4>
+                                                <p>While it is a daily routine for doctors to talk to patients, such conversations are often a stressful and exceptional situation for patients.</p>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <!-- single item end -->
                                 </div>
+                                <!-- row end -->
                             </div>
+                            <!-- slider010-item end -->
+                            <!-- slider010-item start -->
+                            <div class="slider010-item">
+                                <div class="midle-img">
+                        <img src="img/arrow-down-black.png" alt="img" class="img-fluid">
+                    </div>
+
+                                <!-- row start -->
+                                <div class="row">
+                                    <!-- single item start -->
+                                    <div class="col-lg-6">
+                                        <div class="hero-slider-item">
+                                            <h4>Added Insight: <br> <span>Bridging the gap between patients and doctors</span></h4>
+                                            <img src="img/human.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6 align-self-end">
+                                        <div class="item-right">
+                                            <span class="number">1</span>
+                                            <div class="item-p-left">
+                                                <h4>Patients are not medical professionals</h4>
+                                                <p>While it is a daily routine for doctors to talk to patients, such conversations are often a stressful and exceptional situation for patients.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                </div>
+                                <!-- row end -->
+                            </div>
+                            <!-- slider010-item end -->
+                            <!-- slider010-item start -->
+                            <div class="slider010-item">
+                                <div class="midle-img">
+                        <img src="img/arrow-down-black.png" alt="img" class="img-fluid">
+                    </div>
+
+                                <!-- row start -->
+                                <div class="row">
+                                    <!-- single item start -->
+                                    <div class="col-lg-6">
+                                        <div class="hero-slider-item">
+                                            <h4>Added Insight: <br> <span>Bridging the gap between patients and doctors</span></h4>
+                                            <img src="img/human.png" alt="img" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="col-lg-6 align-self-end">
+                                        <div class="item-right">
+                                            <span class="number">1</span>
+                                            <div class="item-p-left">
+                                                <h4>Patients are not medical professionals</h4>
+                                                <p>While it is a daily routine for doctors to talk to patients, such conversations are often a stressful and exceptional situation for patients.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                </div>
+                                <!-- row end -->
+                            </div>
+                            <!-- slider010-item end -->
+                            
+                        </div>
+                        <div class="arrow">
+                            <div class="prev prev2"><img src="img/arrow-left-black.png" alt="img" class="img-fluid"></div>
+                            <div class="next next2"><img src="img/arrow-right-black.png" alt="img" class="img-fluid"></div>
                         </div>
                     </div>
-                    <div class="item" data-dot="<button>2</button>">
-                        <div class="everasks-mission-wrapper">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="ev-mission-left ">
-                                        <h2>EverAsks Mission:<br><span>Bridging the gap between <br> patients and
-                                                doctors</span></h2>
-                                        <img src="img/mss-2.png" class="img-fluid" alt="">
-                                        <span class="ev-mission-l-icons"><img src="img/ev-mission.png" class="img-fluid"
-                                                alt=""></span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="ev-mission-right ">
-                                        <h2>2</h2>
-                                        <h4>Patients can become stressed when <br> they are not well</h4>
-                                        <p>Due to the skills gap and the stress caused <br> by a disease, patients may
-                                            find it difficult <br> to express their concerns and questions <br> on the
-                                            spot. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="<button>3</button>">
-                        <div class="everasks-mission-wrapper">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="ev-mission-left ">
-                                        <h2>EverAsks Mission:<br><span>Bridging the gap between <br> patients and
-                                                doctors</span></h2>
-                                        <img src="img/Left.png" class="img-fluid" alt="">
-                                        <span class="ev-mission-l-icons"><img src="img/ev-mission.png" class="img-fluid"
-                                                alt=""></span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="ev-mission-right ">
-                                        <h2>1</h2>
-                                        <h4>Patients are not medical <br> professionals</h4>
-                                        <p>While it is a daily routine for doctors to <br> talk to patients, such
-                                            conversations are <br> often a stressful and exceptional <br> situation for
-                                            patients.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- slider-wrapp end -->
+
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- EverAsks Mission area-end -->
+            <!-- Bridging end -->
+
 
     <!-- Key Features EverAsk area start -->
     <section class="key-features-area">
@@ -515,9 +638,9 @@
                     <li>
                         <h2>Downloads</h2>
                     </li>
-                    <li><a href="#"><img src="img/pdf-icon.png" class="img-fluid" alt=""><span>Download.pdf</span> </a>
+                    <li><a href="#" class="hover"><img src="img/pdf-icon.png" class="img-fluid" alt=""><span>Download.pdf</span> </a>
                     </li>
-                    <li><a href="#"><img src="img/pdf-icon.png" class="img-fluid" alt=""><span>Download.pdf</span> </a>
+                    <li><a href="#" class="hover"><img src="img/pdf-icon.png" class="img-fluid" alt=""><span>Download.pdf</span> </a>
                     </li>
                 </ul>
             </div>
@@ -533,7 +656,7 @@
                     <li>
                         <h2>Downloads</h2>
                     </li>
-                    <li><a href="#"><img src="img/link.png" class="img-fluid" alt=""><span>www.kpt.ch/everask</span>
+                    <li><a href="#" class="hover"><img src="img/link.png" class="img-fluid" alt=""><span>www.kpt.ch/everask</span>
                         </a></li>
                 </ul>
             </div>
@@ -549,7 +672,7 @@
                     patients?
                 </h3>
                 <h2>Request a demo</h2>
-                <a href="tel:+41123456789">
+                <a href="tel:+41123456789" class="hover">
                     +41 123 456789
                 </a>
             </div>
@@ -576,12 +699,24 @@
         });
     </script>
     <!-- Custom jQuery -->
-    <script src="js/owl.carousel.js"></script>
+            <script src="js/owl.carousel.js"></script>
+            <script src="js/slick.min.js"></script>
 
-    <!-- multipurpose_tabcontent jQuery -->
-    <script src="js/jquery.multipurpose_tabcontent.js"></script>
+            <!-- Fontawesome Script -->
+            <script src="https://kit.fontawesome.com/e7f2043049.js"></script>
 
     <script>
+        $('.slider-hero2').slick({
+                    dots: true,
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    nextArrow: ".next2",
+                    prevArrow: ".prev2",
+
+                });
         // first-slider
 
         $('.products-slider').owlCarousel({
@@ -646,8 +781,7 @@
         })
     </script>
 
-    <!-- Fontawesome Script -->
-    <script src="https://kit.fontawesome.com/e7f2043049.js"></script>
+
 
     <!-- Custom jQuery -->
     <script src="js/scripts.js"></script>

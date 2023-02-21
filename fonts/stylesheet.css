@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Courier';
+    src: url('CourierBOLD.eot');
+    src: url('CourierBOLD.eot?#iefix') format('embedded-opentype'),
+        url('CourierBOLD.woff2') format('woff2'),
+        url('CourierBOLD.woff') format('woff'),
+        url('CourierBOLD.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier';
+    src: url('Courier.eot');
+    src: url('Courier.eot?#iefix') format('embedded-opentype'),
+        url('Courier.woff2') format('woff2'),
+        url('Courier.woff') format('woff'),
+        url('Courier.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -12,6 +12,8 @@
 		<title>Welcome</title>
 		<!-- Fav Icon -->
 		<link rel="icon" href="img/fav.png" />
+		<!-- fonts  -->
+		<link rel="stylesheet" href="fonts/stylesheet.css">
 		<!-- Include Bootstrap -->
 		<link rel="stylesheet" href="css/owl.carousel.css" />
 		<link rel="stylesheet" href="css/slick.css" />
@@ -28,14 +30,14 @@
 		<![endif]-->
 		<!-- ==== nev area start===== -->
 		<header class="header-privacy">
-			<div class="container ">
+			<div class="container-fluid">
 				<nav>
 					<div class="menu-logo">
 						<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
 					</div>
 					<div class="menu-language-btn">
 						<div class="dropdown">
-							<a type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<a data-bs-toggle="dropdown" aria-expanded="false" href="#">
 								<img src="img/1920.png" class="img-fluid" alt="">
 							</a>
 							<ul class="dropdown-menu">
@@ -53,6 +55,9 @@
 		<section class="hero-area hero-privacy">
 			<span class="hero-liness d-md-block d-none"><img src="img/hero-line-line2.png" alt=""></span>
 			<span class="hero-liness d-md-none d-block"><img src="img/mobile-bg.png" alt=""></span>
+			<div class="container position-relative">
+				<a href=""><img src="img/arrow-left2.svg" alt="img" class="img-fluid"></a>
+			</div>
 		</section>
 		<!-- hero-area-end -->
 		<!-- Data privacy information start -->
@@ -63,73 +68,73 @@
 				<div class="box">
 					<h2>Publisher</h2>
 					<p>Meeting Kitchen LLC <br>
-Jérôme Racine <br>
-Falkenstrasse 80 <br>
-4016 Therwil/Basel <br>
-Switzerland <br>
-<a href="mailto:info@meeting-kitchen.com ">info@meeting-kitchen.com </a><br>
-<a href="www.meeting-kitchen.com">www.meeting-kitchen.com</a></p>
+						Jérôme Racine <br>
+						Falkenstrasse 80 <br>
+						4016 Therwil/Basel <br>
+						Switzerland <br>
+						<a href="mailto:info@meeting-kitchen.com " class="hover">info@meeting-kitchen.com </a><br>
+						<a href="www.meeting-kitchen.com" class="hover">www.meeting-kitchen.com</a></p>
+						
+					</div>
+					<!-- single item end -->
+					<!-- single item start -->
+					<div class="box">
+						<h2>Incorporation</h2>
+						<p>Trade register of the canton of Basel-Country</p>
+					</div>
+					<!-- single item end -->
+					<!-- single item start -->
+					<div class="box">
+						<h2>Enterprise Identification Number</h2>
+						<p>UID: CHE-397.989.682</p>
+					</div>
+					<!-- single item end -->
+					<!-- single item start -->
+					<div class="box">
+						<h2>Banking Account </h2>
+						<p>UBS Ltd., CH - 4002 Basel (Switzerland) <br>
+							BIC: UBSWCHZH80A <br>
+							IBAN (CHF account): CH21 0023 3233 2122 9701 Z <br>
+						IBAN (Euro account): CH44 0023 3233 2122 9760 Q</p>
+					</div>
+					<!-- single item end -->
+					<!-- single item start -->
+					<div class="box">
+						<h2>Liability disclaimer</h2>
+						<p>Links to third party pages are provided for convenience only. We do not express any opinion on the content of any third-party pages and expressly disclaim any liability for all third-party information and the use of it. <br>
+						We hereby expressly prohibit third parties from using the contact data published as part of our obligation to include company details on the website for the purpose of sending promotional and informational materials that have not been expressly requested. The site operators reserve the right to take legal action in the event of unsolicited promotional materials being sent (for example, in the form of spam).</p>
+					</div>
+					<!-- single item end -->
+					
 					
 				</div>
-				<!-- single item end -->
-				<!-- single item start -->
-				<div class="box">
-					<h2>Incorporation</h2>
-					<p>Trade register of the canton of Basel-Country</p>
-				</div>
-				<!-- single item end -->
-				<!-- single item start -->
-				<div class="box">
-					<h2>Enterprise Identification Number</h2>
-					<p>UID: CHE-397.989.682</p>
-				</div>
-				<!-- single item end -->
-				<!-- single item start -->
-				<div class="box">
-					<h2>Banking Account </h2>
-					<p>UBS Ltd., CH - 4002 Basel (Switzerland) <br>
-BIC: UBSWCHZH80A <br>
-IBAN (CHF account): CH21 0023 3233 2122 9701 Z <br>
-IBAN (Euro account): CH44 0023 3233 2122 9760 Q</p>
-				</div>
-				<!-- single item end -->
-				<!-- single item start -->
-				<div class="box">
-					<h2>Liability disclaimer</h2>
-					<p>Links to third party pages are provided for convenience only. We do not express any opinion on the content of any third-party pages and expressly disclaim any liability for all third-party information and the use of it. <br>
-We hereby expressly prohibit third parties from using the contact data published as part of our obligation to include company details on the website for the purpose of sending promotional and informational materials that have not been expressly requested. The site operators reserve the right to take legal action in the event of unsolicited promotional materials being sent (for example, in the form of spam).</p>
-				</div>
-				<!-- single item end -->
-				
-				
 			</div>
-		</div>
-		<!-- Data privacy information end -->
-		<!-- Main jQuery -->
-		<script src="js/jquery-3.6.0.min.js"></script>
-		<!-- Bootstrap Js -->
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script>
-			$(document).ready(function() {
-				$( window ).scroll(function() {
-					var height = $(window).scrollTop();
-					if(height >= 100) {
-						$('header').addClass('fixed-menu');
-					} else {
-						$('header').removeClass('fixed-menu');
-					}
+			<!-- Data privacy information end -->
+			<!-- Main jQuery -->
+			<script src="js/jquery-3.6.0.min.js"></script>
+			<!-- Bootstrap Js -->
+			<script src="js/bootstrap.bundle.min.js"></script>
+			<script>
+				$(document).ready(function() {
+					$( window ).scroll(function() {
+						var height = $(window).scrollTop();
+						if(height >= 100) {
+							$('header').addClass('fixed-menu');
+						} else {
+							$('header').removeClass('fixed-menu');
+						}
+					});
 				});
-			});
-		</script>
-		<!-- Custom jQuery -->
-		<script src="js/owl.carousel.js"></script>
-		<script src="js/slick.min.js"></script>
-		<!-- Fontawesome Script -->
-		<script src="https://kit.fontawesome.com/e7f2043049.js"></script>
-		<!-- Custom jQuery -->
-		<script src="js/scripts.js"></script>
-		
-		<!-- Scroll-Top button -->
-		<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
-	</body>
-</html>
+			</script>
+			<!-- Custom jQuery -->
+			<script src="js/owl.carousel.js"></script>
+			<script src="js/slick.min.js"></script>
+			<!-- Fontawesome Script -->
+			<script src="https://kit.fontawesome.com/e7f2043049.js"></script>
+			<!-- Custom jQuery -->
+			<script src="js/scripts.js"></script>
+			
+			<!-- Scroll-Top button -->
+			<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+		</body>
+	</html>
