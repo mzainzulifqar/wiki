@@ -1,6 +1,7 @@
 (function($){
 	$(document).ready(function() {	
 
+		checkScroll();
 		// Scroll to Top
 		jQuery('.scrolltotop').click(function(){
 			jQuery('html').animate({'scrollTop' : '0px'}, 400);
@@ -91,17 +92,39 @@
 
         });
 
-		
-		
-
-				
-		
-		
-		
-		
-		
-		
-		
-		
-	});
+		function checkScroll() {
+			var imageContainers = document.querySelectorAll('img');
+			var textContainers = document.querySelectorAll('p');
+		  
+			textContainers.forEach(function(textContainer) {
+			  if (isElementInViewport(textContainer) || isElementAtScrollHeight(textContainer)) {
+				textContainer.classList.add('slide-in');
+			  }
+			});
+		  
+			imageContainers.forEach(function(imageContainer) {
+			  if (isElementInViewport(imageContainer) || isElementAtScrollHeight(imageContainer)) {
+				imageContainer.classList.add('fade-in');
+			  }
+			});
+		  }
+		  
+		function isElementInViewport(el) {
+		var rect = el.getBoundingClientRect();
+		return (
+			rect.top <= (window.innerHeight || document.documentElement.clientHeight) - 50 &&
+			rect.left >= 0 &&
+			rect.bottom >= 50 &&
+			rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+		}
+		  
+		function isElementAtScrollHeight(el) {
+		var rect = el.getBoundingClientRect();
+		return (rect.top <= window.innerHeight && rect.bottom >= 0);
+		}
+		  
+		window.addEventListener('scroll', checkScroll);		  
+		  
+		});
 })(jQuery);

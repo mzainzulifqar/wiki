@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Animations */
+img {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+img.fade-in {
+  opacity: 1;
+}
+
+img.no-anim {
+  opacity: 1;
+}
+
+p {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+p.slide-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+p.no-anim {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 body {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -461,7 +492,7 @@ nav {
   background-size: 100% 100%;
   position: absolute;
   top: 40px;
-  left: 10%;
+  left: -1%;
   transition: 0.2s;
   visibility: hidden;
   z-index: 1111;
@@ -644,9 +675,10 @@ footer .container {
 .footer-item-right a {
   cursor: pointer;
 }
-.footer-item-right a::before {
-  width: 55px;
-  height: 55px;
+.footer-item-right a::before, .req-inner .hover::before {
+  width: 105px;
+  height: 105px;
+  left: 25px;
 }
 
 .footer-item-right ul {
@@ -733,6 +765,9 @@ footer .container {
 
 .ever-hero-arro-2 img {
   width: 245px !important;
+}
+.WouldYou .hover::before {
+  left: 70px;
 }
 .hero-ecer-slider .owl-theme .owl-dots {
   text-align: center;
@@ -951,6 +986,9 @@ footer .container {
   top: 17px;
   left: 20px;
 }
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
 
 .benifit-mobile {
   background-color: #000;
@@ -1072,7 +1110,9 @@ footer .container {
   display: inline-block;
   padding-left: 20px;
 }
-
+.pdf-don-wrapper .hover::before {
+  left: 25%;
+}
 /* Downloads-only-mobile-area-start  */
 
 .mobile-download-area {
@@ -1805,7 +1845,7 @@ footer .container {
   font-size: 36px;
   line-height: 41px;
   text-align: center;
-  letter-spacing: -0.1em;
+  letter-spacing: -0.25em;
   color: #ffffff;
 }
 .slider-wrapp .slick-dots li.slick-active button {
@@ -1825,9 +1865,9 @@ footer .container {
 }
 .hero-area2.hero-area .hero-liness {
   position: absolute;
-  /* top: 48px; */
+  top: 48px;
   left: 0;
-  width: 100%;
+  width: 140%;
 }
 .hero-area2 .hero-wrapper {
   padding: 0;
@@ -2602,6 +2642,29 @@ footer .container {
 .arrow-show .arrow-show-item a img {
   width: 60px;
 }
+@media (max-width: 768px) and (min-width: 576px) {
+  .privacy-arrow-section .arrow-show-item a img {
+    transform: translate(100px, -50px);
+  }
+}
+@media (min-width: 1024px) {
+  .everaxk-arrow-section {
+    position: absolute !important;
+    height: 357px !important; 
+    width: 467px !important;
+  }
+  .everaxk-arrow-section .arrow-show-item a img {
+    height: 357px !important; 
+    width: 400px !important; 
+    transform: translate(5%, -20%);
+  }
+  .everaxk-arrow-section .arrow-show-item a img {
+    opacity: 0;
+  }
+  .everaxk-arrow-section:hover .arrow-show-item a img {
+    opacity: 1;
+  }
+}
 /* ============ header-privacy end ================ */
 /* ============ DataPrivacy start ================ */
 .DataPrivacy {
@@ -2817,4 +2880,9 @@ footer .container {
   visibility: hidden;
   z-index: 1111;
   transition: 0.2s;
+}
+.accordion-item .hover-item::before {
+  width: 150px;
+  height: 150px;
+  left: 10px;
 }
