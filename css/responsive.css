@@ -3392,7 +3392,7 @@ Xtra Small Screen - Small Mobile
     margin-top: -25px;
   }
   .Bridging.Bridging010 .slider-wrapp .arrow {
-    margin-left: 21%;
+    /* margin-left: 21%; */
     margin-right: 0;
   }
   .Team .box .accordion .accordion-body .team-body .item-team-right {
@@ -3411,7 +3411,7 @@ Xtra Small Screen - Small Mobile
   }
   .Bridging.Bridging010 .slider-wrapp .slick-dots {
     margin-top: -130px;
-    max-width: 62.8%;
+    /* max-width: 62.8%; */
   }
   .hero-area3 .Bridging .item-right .item-p-left h4 {
     font-size: 14px;
@@ -3422,12 +3422,12 @@ Xtra Small Screen - Small Mobile
     font-size: 14px;
   }
   .Bridging .slider-wrapp .arrow {
-    max-width: 80px;
+    /* max-width: 80px; */
     margin-top: -41px;
-    margin-left: 65px;
+    /* margin-left: 65px; */
   }
   .Bridging .slider-wrapp .slick-dots {
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
   .Team h2.teamH2 {
     margin-bottom: 26px;
@@ -3675,12 +3675,20 @@ Xtra Small Screen - Small Mobile
   }
   .hero-area.hero-area0101 .hero-ecer-slider .owl-theme .owl-dots {
     top: 97% !important;
-    right: 60vw;
+    right: 63%;
+    width: 28%;
+  }
+  .owlprev, .owlnext {
+    font-size: 10px !important;
+  }
+  .slick-dots button, .owl-dot button {
+    letter-spacing: -2px !important;
   }
   .hero-area.hero-area0101 .hero-ecer-slider .owl-theme .owl-nav {
     position: absolute !important;
     top: 95.3% !important;
-    right: 50vw;
+    right: 50%;
+    width: 55% !important;
   }
   .hero-area.hero-area0101 .hero-slider-logo {
     margin-top: 0;
