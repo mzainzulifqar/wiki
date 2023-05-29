@@ -865,7 +865,9 @@ Small Screen - Tablate
   .hero-area0101.hero-area .hero-slider-logo {
     margin-top: 0;
   }
-
+  .slick-dots button, .owl-dot button {
+    letter-spacing: -2px !important;
+  }
   .hero-area0101.hero-area .h-l-solution-mb {
     top: 53px;
     display: block;
@@ -1713,6 +1715,9 @@ Small Screen - Mobile
     height: 61px !important;
     width: 81px !important;
     transform: translate(80%, -70%);
+  }
+  .slick-dots button, .owl-dot button {
+    letter-spacing: -2px !important;
   }
   .hero-area0101.hero-area .hero-slider-logo {
     margin-top: 0;
