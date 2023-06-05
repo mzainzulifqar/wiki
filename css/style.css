@@ -786,7 +786,7 @@ footer .container {
   font-weight: 400;
   font-size: 36px;
   line-height: 41px;
-  letter-spacing: -0.25em;
+  letter-spacing: -0.15em;
   color: #ffffff;
 }
 
@@ -798,7 +798,7 @@ footer .container {
 }
 
 .hero-ecer-slider .owlprev {
-  font-size: 19px;
+  font-size: 10px;
   width: 15px;
   height: 15px;
   text-align: center;
@@ -810,7 +810,7 @@ footer .container {
   background-color: transparent;
 }
 .hero-ecer-slider .owlnext {
-  font-size: 19px;
+  font-size: 10px;
   width: 15px;
   height: 15px;
   text-align: center;
@@ -1238,7 +1238,7 @@ footer .container {
 
 .babu-container {
   position: relative;
-  padding-left: calc((100% - 1496px) / 2);
+  padding: 0 calc((100% - 1496px) / 2);
 }
 
 /* ================ */
@@ -1253,7 +1253,7 @@ footer .container {
   outline: none;
   position: absolute;
   bottom: -6px;
-  left: -18px;
+  left: 0;
   z-index: 99999;
 }
 
@@ -1261,20 +1261,6 @@ footer .container {
 .babu-container .owlnext:focus {
   outline: none;
   border: 0;
-}
-
-.babu-container .owlnext {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background: url(../img/a.png);
-  background-size: 100% 100%;
-  border: 0;
-  outline: none;
-  position: absolute;
-  bottom: -10px;
-  right: -15px;
-  z-index: 99999;
 }
 
 .babu-container .owlnext {
@@ -1287,11 +1273,13 @@ footer .container {
   outline: none;
   position: absolute;
   bottom: -6px;
-  right: 155px;
+  right: 0;
   z-index: 99999;
 }
 .babu-container .owl-dots {
   display: flex;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .babu-container .owl-dot,
@@ -1845,7 +1833,7 @@ footer .container {
   font-size: 36px;
   line-height: 41px;
   text-align: center;
-  letter-spacing: -0.25em;
+  letter-spacing: -0.15em;
   color: #ffffff;
 }
 .slider-wrapp .slick-dots li.slick-active button {
@@ -2391,7 +2379,7 @@ footer .container {
   font-size: 36px;
   line-height: 41px;
   text-align: center;
-  letter-spacing: -0.25em;
+  letter-spacing: -0.15em;
   color: #ffffff;
 }
 /* ============== About Us end ============== */

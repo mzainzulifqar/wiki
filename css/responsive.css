@@ -144,7 +144,7 @@
   .hero-ecer-slider .owl-theme .owl-nav {
     top: 60.2%;
     right: 35.7%;
-    width: 140px;
+    width: 150px;
   }
   .ever-hero-arro-2 {
     position: absolute;
@@ -227,18 +227,18 @@
     margin-top: -90px;
   }
   .babu-container {
-    padding-left: calc((100% - 1146px) / 2);
+    padding: 0 calc((100% - 1146px) / 2);
   }
   .key-features-area .container {
     max-width: 1170px;
   }
   .babu-container .owl-dots {
-    max-width: 1120px !important;
-    margin: 0 !important;
-    margin-left: 45px !important;
+    /* max-width: 1120px !important; */
+    width: 90%;
+    margin: 0 auto !important;
   }
   .babu-container .owlnext {
-    right: 8% !important;
+    /* right: 8% !important; */
   }
   .key-title h2 {
     font-size: 36px;
@@ -501,17 +501,20 @@
   }
 
   .babu-container .owlprev {
-    width: 19px;
-    height: 30px;
+    width: 20px;
+    height: 35px;
     bottom: -6px;
-    left: 30px;
+    left: 0;
     z-index: 99999;
   }
 
   .babu-container .owlnext {
     bottom: -6px;
-    right: 30px;
+    /* right: 30px; */
+    right: 0;
     z-index: 99999;
+    width: 22px;
+    height: 35px;
   }
 
   .babu-container::after {
@@ -525,7 +528,8 @@
   .babu-container .owl-dots {
     display: flex;
     max-width: 100%;
-    padding: 0px 60px;
+    /* padding: 0px 60px; */
+    width: 90%;
   }
 
   .babu-container .owl-theme .owl-dots .owl-dot span {
@@ -683,13 +687,15 @@ Medium Screen - Others
     width: 19px;
     height: 30px;
     bottom: -6px;
-    left: 30px;
+    /* left: 30px; */
+    left: 2%;
     z-index: 99999;
   }
 
   .babu-container .owlnext {
     bottom: -6px;
-    right: 30px;
+    /* right: 30px; */
+    right: 2%;
     z-index: 99999;
   }
 
@@ -706,11 +712,10 @@ Medium Screen - Others
   .babu-container .owl-dots {
     display: flex;
     max-width: 100%;
-    padding: 0px 60px;
-    margin-left: 0 !important;
-  }
-  .babu-container .owlnext {
-    right: 3% !important;
+    /* padding: 0px 60px; */
+    width: 85%;
+    margin: 0 auto;
+    /* margin-left: 0 !important; */
   }
   .babu-container .owl-theme .owl-dots .owl-dot span {
     margin-left: 0;
@@ -862,6 +867,15 @@ Small Screen - Tablate
 */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .arrow-show .arrow-show-item a img {
+    width: 81px;
+    height: 61px;
+  }
+  .arrow-show .arrow-show-item a {
+    /* margin-top: 50%; */
+    top: 25px;
+    left: -2%;
+  }
   .hero-area0101.hero-area .hero-slider-logo {
     margin-top: 0;
   }
@@ -1384,16 +1398,18 @@ Small Screen - Tablate
   }
 
   .babu-container .owlprev {
-    width: 19px;
-    height: 30px;
+    width: 15px;
+    height: 33px;
     bottom: -6px;
-    left: 30px;
+    left: 5%;
     z-index: 99999;
   }
 
   .babu-container .owlnext {
+    width: 15px;
+    height: 33px;
     bottom: -6px;
-    right: 30px;
+    right: 5%;
     z-index: 99999;
   }
 
@@ -1569,7 +1585,8 @@ Small Screen - Tablate
   }
   .DataPrivacy {
     margin-top: -40px;
-    padding-bottom: 160px;
+    /* padding-bottom: 160px; */
+    padding: 0 20% 160px;
   }
 
   .DataPrivacy .container {
@@ -2973,7 +2990,7 @@ Xtra Small Screen - Small Mobile
   .babu-container .owl-dots {
     display: flex;
     max-width: 100%;
-    padding: 0px 45px;
+    padding: 0px 25px;
   }
   .babu-container .owlnext {
     right: 18px;
